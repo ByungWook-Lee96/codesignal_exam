@@ -7,8 +7,9 @@ namespace exam2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
             int[] inputArray = { 3, 6, -2, -5, 7, 3 };
+            Console.WriteLine(adjacentElementsProduct(inputArray));
         }
         static int adjacentElementsProduct(int[] inputArray)
         {
