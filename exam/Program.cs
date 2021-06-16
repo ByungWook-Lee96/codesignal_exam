@@ -33,6 +33,8 @@ namespace exam
             }
             return b;
         }
+
+        // 다른 버전
         static bool checkPalindrome_easy(string inputString)
         {
             return inputString.SequenceEqual(inputString.Reverse());
